@@ -1,0 +1,26 @@
+.header {
+  padding-left: 20px;
+  height: 60px;
+  background-color: rgb(140 129 50 / 61%);
+  backdrop-filter: blur(8px);
+  text-align: left;
+  display: flex;
+  padding-right: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  justify-content: space-between;
+}
+
+.header .logout {
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.header-items {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}

@@ -1,0 +1,31 @@
+.cart-con {
+  padding: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 26px;
+}
+
+.cart-card {
+  display: flex;
+  gap: 40px;
+  border: 1px solid #0000003d;
+  min-width: 300px;
+}
+
+.cart-card img {
+  width: 80px;
+  height: 60px;
+}
+
+.itm-details-con p {
+  margin-bottom: 6px;
+  margin-top: 0;
+  font-size: 14px;
+}
+
+.itm-details-con {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

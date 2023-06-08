@@ -1,0 +1,53 @@
+.img-container {
+  padding: 40px;
+  flex-basis: 20%;
+  border: 1px solid gray;
+  position: relative;
+  cursor: pointer;
+  min-height: 340px;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+}
+
+.img-container:hover {
+  transform: scale(1.03);
+  transition: 0.1s ease-out;
+}
+
+.img-container:hover > .background-image {
+  opacity: 1;
+}
+
+.img-container .main-image {
+  width: 100%;
+}
+
+.img-container .background-image {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  opacity: 0.8;
+  filter: blur(15px);
+}
+
+.add-to-cart-btn {
+  width: 100%;
+  height: 30px;
+  background: #0000003d;
+  border: 1px solid rgba(0, 0, 0, 0.44);
+  /* color: white; */
+}
+
+.card-name {
+  margin-bottom: auto;
+}
+
+.add-to-cart-btn:hover {
+  background: rgba(135, 135, 135, 0.415);
+}
